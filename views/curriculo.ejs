@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/main.css">
+    <title><%= title %></title>
+</head>
+
+<body>
+    <main id="curriculo">
+        <div class="title">
+            <h1><%= title %></h1>
+            <p>Bem vindo(a) ao <strong><%= title %></strong></p>
+            <strong><%= name %></strong>
+            <p><%= profession %></p>
+            <p><%= description %></p>
+        </div>
+
+        <div class="exp-prof">
+            <h3 class="text-primary">Experiencia Proficionais</h3>
+            <ul>
+                <% experience.map(experience => { %>
+                <li>
+                    <div>
+                        <strong><%= experience.company %>:</strong>
+                        <strong><%= experience.office %></strong>
+                        <br>
+                        <span><%= experience.description %></span>
+                    </div>
+                </li>
+                <% }); %>
+            </ul>
+
+            <ul>
+                <% education.map(education => { %>
+    
+                <div>
+                    <h3 class="text-primary">Experiencia</h3>
+                    <ul>
+                        <li>
+                            <strong><%= education.institution %></strong>
+                        </li>
+                        <li>
+                            <strong><%= education.description %></strong>
+                        </li>
+                    </ul>
+                </div>
+    
+                <% }); %>
+            </ul>
+        </div>
+
+        <div class="skill">
+            <h3 class="text-primary">Habilidades</h3>
+            <ul>
+                <% skills.map(skill => { %>
+                <li><%= skill %></li>
+                <% }); %>
+            </ul>
+        </div>
+    </main>
+
+</body>
+
+</html>
