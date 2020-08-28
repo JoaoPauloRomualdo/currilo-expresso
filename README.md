@@ -22,13 +22,13 @@
 
 ### Como Rodar
 
-npm install
-npm run dev
+<p>npm install</p>
 
+<p>npm run dev</p>
 
 ### Autor
 ---
-<img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/61504262?s=460&u=ec40413254835cc7456fbf43e06ae740fceac2bb&v=4" width="100px;" alt=""/>
+<img style="border-radius: 80%;" src="https://avatars2.githubusercontent.com/u/61504262?s=460&u=ec40413254835cc7456fbf43e06ae740fceac2bb&v=4" width="100px;" alt=""/>
  <br/>
  <sub><b>Joao Paulo Romualdo</b></sub></a>🚀</a>
 
